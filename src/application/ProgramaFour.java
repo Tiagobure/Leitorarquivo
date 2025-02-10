@@ -9,7 +9,7 @@ public class ProgramaFour {
 
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Enter a foder patch: ");
+		System.out.println("Enter a foder path: ");
 		String strPath = sc.nextLine();
 		
 		File patch = new File(strPath);
